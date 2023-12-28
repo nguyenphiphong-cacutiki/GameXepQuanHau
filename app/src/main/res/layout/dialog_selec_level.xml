@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/select_level"
+    android:layout_height="600dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        app:cardCornerRadius="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chọn mức độ chơi"
+            android:textSize="30sp"
+            android:textColor="#FF5722"
+            android:padding="10dp"
+            android:background="#199E91"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            />
+    </androidx.cardview.widget.CardView>
+
+
+    <TextView
+        android:id="@+id/btnDe"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="141dp" />
+    <TextView
+        android:id="@+id/btnKho"
+        android:layout_marginTop="272dp"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        />
+    <TextView
+        android:layout_alignParentRight="true"
+        android:id="@+id/btnTb"
+        android:layout_marginTop="202dp"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        />
+    <TextView
+        android:layout_alignParentRight="true"
+        android:id="@+id/btnQl"
+        android:layout_marginTop="512dp"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="50dp"
+        />
+
+</RelativeLayout>

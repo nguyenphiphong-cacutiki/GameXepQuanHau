@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:background="@drawable/lose"
+    android:layout_height="500dp">
+
+    <TextView
+        android:id="@+id/btnNewGameAgain"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:layout_above="@+id/btnPass"
+        android:layout_marginBottom="8dp"
+        android:layout_alignParentRight="true"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_alignParentRight="true"
+        android:id="@+id/btnPass"
+        android:layout_width="120dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="8dp"
+        android:layout_above="@+id/btnCancelFail"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_alignParentRight="true"
+        android:id="@+id/btnCancelFail"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="47dp"
+        android:textSize="30sp" />
+
+</RelativeLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:background="@drawable/infor"
+    android:layout_height="500dp">
+    <TextView
+        android:id="@+id/btnWelcomeYes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Đồng ý"
+        android:textSize="30sp"
+        android:layout_alignParentBottom="true"
+        android:textColor="#F1950E"
+        android:textStyle="bold"
+        android:background="@drawable/back_button"
+        android:layout_marginBottom="20dp"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="5dp"/>
+</RelativeLayout>

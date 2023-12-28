@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_main_activity"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/btnStartGame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/back_button"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:text="Bắt đầu chơi"
+        android:textColor="#FF9800"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/btnLaw_"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnStartGame"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="145dp"
+        android:background="@drawable/back_button"
+        android:padding="10dp"
+        android:text="Luật chơi"
+        android:textColor="#FF9800"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_below="@+id/btnLaw_"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thông tin"
+        android:textSize="30sp"
+        android:id="@+id/btnInformation"
+        android:textColor="#FF9800"
+        android:background="@drawable/back_button"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="145dp"/>
+
+
+
+</RelativeLayout>
